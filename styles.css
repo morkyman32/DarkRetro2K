@@ -103,39 +103,43 @@ a#nav-my-account-link, a#nav-posts-link, a#nav-comments-link, a#nav-notes-link, 
 }
 
 a#nav-my-account-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/user.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Oxygen480-places-user-identity.svg/50px-Oxygen480-places-user-identity.svg.png) !important;
 }
 
 a#nav-posts-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/posts.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Oxygen480-actions-view-list-icons.svg/50px-Oxygen480-actions-view-list-icons.svg.png) !important;
 }
 
 a#nav-comments-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/comments.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Oxygen15.04.1-telepathy-kde.svg/50px-Oxygen15.04.1-telepathy-kde.svg.png) !important;
 }
 
 a#nav-notes-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/notes.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Oxygen480-actions-view-pim-notes.svg/50px-Oxygen480-actions-view-pim-notes.svg.png) !important;
 }
 
 a#nav-artists-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/artists.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Oxygen480-categories-applications-graphics.svg/50px-Oxygen480-categories-applications-graphics.svg.png) !important;
 }
 
 a#nav-tags-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/tags.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Oxygen480-actions-bookmark-toolbar.svg/50px-Oxygen480-actions-bookmark-toolbar.svg.png) !important;
 }
 
 a#nav-pools-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/pools.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Oxygen480-places-folder-bookmark.svg/50px-Oxygen480-places-folder-bookmark.svg.png) !important;
 }
 
 a#nav-wiki-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/wiki.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oxygen480-status-dialog-information.svg/50px-Oxygen480-status-dialog-information.svg.png) !important;
 }
 
 a#nav-forum-link {
-    background-image: url(https://raw.githubusercontent.com/midpark/DarkRetro2K/main/icons/generic/forum.webp) !important;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Konversation_Oxygen.svg/50px-Konversation_Oxygen.svg.png) !important;
+}
+
+a#nav-music-link {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Oxygen480-devices-media-optical-mixed-cd.svg/50px-Oxygen480-devices-media-optical-mixed-cd.svg.png) !important;
 }
  
  body a.user-member {
