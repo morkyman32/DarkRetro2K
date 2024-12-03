@@ -1,0 +1,45 @@
+body {
+--body-background-color: #120a0f !important;
+--notice-info-background: #3f2536 !important;
+--notice-info-border-color: #965781 !important;
+--form-button-background: #1b0f17 !important;
+--form-button-hover-background: #44273a !important;
+--form-button-text-color: #ffa7e1 !important;
+--form-button-border-color: #ab7f9c !important;
+--form-button-active-background: #b56c9c !important;
+--post-artist-commentary-container-background: #301025 !important;
+--post-artist-commentary-container-border-color: #ab7f9c !important;
+--post-search-notice-background: #301025 !important;
+--post-notice-border-color: var(--post-artist-commentary-container-border-color) !important;
+--post-pending-notice-background: #4f0c38 !important;
+--post-resized-notice-background: #390c29 !important;
+--link-color: #ff84d5 !important;
+--link-hover-color: #ffe5f6 !important;
+--post-tooltip-background-color: var(--post-artist-commentary-container-background) !important;
+--post-tooltip-header-background-color: var(--post-tooltip-background-color) !important;
+--post-tooltip-border-color: var(--notice-info-border-color) !important;
+--box-shadow-color: #7e5c73 !important;
+--subnav-menu-border-b: #833568 !important;
+--subnav-menu-border-t: #d4008c !important;
+--subnav-menu-grad-b: #300e25 !important;
+--subnav-menu-grad-t: #5b003c !important;
+--textbox-grad-b: #0b0208 !important;
+--textbox-grad-t: #2b0d20 !important;
+--chip-primary-background-color: #28091d !important;
+--default-border-color: #62204c !important;
+--autosuggestions-box-background: #000000 !important;
+--responsive-menu-background-color: #300e25 !important;
+}
+
+   header#top #app-name-header img {
+        display:none;
+   }
+
+   a#app-name-header {
+        background-image: url(https://i.imgur.com/cDdomyW.png);
+        background-size: 100% 100%;
+        width: 203px;
+        height: 41px;
+        display: block;
+        margin-top: 8px;
+    }

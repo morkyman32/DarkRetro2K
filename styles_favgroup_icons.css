@@ -1,0 +1,17 @@
+table#favorite-groups-table tr {
+    height: 50px;
+}
+
+table#favorite-groups-table tr td.name-column a {
+    height:48px;
+    display:inline-block;
+    text-align: center;
+    line-height: 48px;
+}
+
+table#favorite-groups-table tr td.name-column a:first-child {
+    padding-left:55px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image:url(https://avatars.akamai.steamstatic.com/b599127509772f2125568318a38f24e64881de61_full.jpg);
+}

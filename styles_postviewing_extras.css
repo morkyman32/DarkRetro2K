@@ -1,0 +1,11 @@
+section.image-container[data-tags*="pixel_art"] {
+    max-height: calc(40%);
+    max-width: 65vh;
+    width: 100%;
+    font-size: 0% !important;
+}
+
+section.image-container[data-tags*="pixel_art"] img {
+    min-width: 100%;
+    image-rendering: pixelated;
+}

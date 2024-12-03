@@ -1,0 +1,48 @@
+body {
+   --body-background-color: #00120f !important;
+   --notice-info-background: #003f38 !important;
+   --notice-info-border-color: #009684 !important;
+   --form-button-background: #001b17 !important;
+   --form-button-hover-background: #00443c !important;
+   --form-button-text-color: #a7fff4 !important;
+   --form-button-border-color: #7faba5 !important;
+   --form-button-active-background: #6cb5ac !important;
+   --post-artist-commentary-container-background: #10302d !important;
+   --post-artist-commentary-container-border-color: #7faba5 !important;
+   --post-search-notice-background: #10302d !important;
+   --post-notice-border-color: var(--post-artist-commentary-container-border-color) !important;
+   --post-pending-notice-background: #0c4f47 !important;
+   --post-resized-notice-background: #0c3933 !important;
+   --link-color: #84fff0 !important;
+   --link-hover-color: #e5fffc !important;
+   --post-tooltip-background-color: var(--post-artist-commentary-container-background) !important;
+   --post-tooltip-header-background-color: var(--post-tooltip-background-color) !important;
+   --post-tooltip-border-color: var(--notice-info-border-color) !important;
+   --box-shadow-color: #5c7e7a !important;
+   --subnav-menu-border-b: #358379 !important;
+   --subnav-menu-border-t: #00d4bb !important;
+   --subnav-menu-grad-b: #0e302c !important;
+   --subnav-menu-grad-t: #005b50 !important;
+   --textbox-grad-b: #020b0a !important;
+   --textbox-grad-t: #0d2b27 !important;
+   --chip-primary-background-color: #092824 !important;
+   --default-border-color: #20625b !important;
+   --autosuggestions-box-background: #000000 !important;
+   --responsive-menu-background-color: #0e302c !important;
+}
+
+header#top #app-name-header #app-logo img {
+   content: url("https://raw.githubusercontent.com/ynnysh/DarkRetro2K/main/icons/gaybooru.png")
+}
+
+a#app-name {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+a#app-name:after {
+    content: "Gaybooru";
+    display: block;
+    line-height: initial;
+    text-indent: 0;
+}

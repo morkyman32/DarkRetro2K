@@ -1,0 +1,52 @@
+body {
+   --body-background-color: #061203 !important;
+   --notice-info-background: #163f0a !important;
+   --notice-info-border-color: #349619 !important;
+   --form-button-background: #091b04 !important;
+   --form-button-hover-background: #17440b !important;
+   --form-button-text-color: #baffa7 !important;
+   --form-button-border-color: #88ab7f !important;
+   --form-button-active-background: #7cb56c !important;
+   --post-artist-commentary-container-background: #173010 !important;
+   --post-artist-commentary-container-border-color: #88ab7f !important;
+   --post-search-notice-background: #173010 !important;
+   --post-notice-border-color: var(--post-artist-commentary-container-border-color) !important;
+   --post-pending-notice-background: #1a4f0c !important;
+   --post-resized-notice-background: #15390c !important;
+   --link-color: #9eff84 !important;
+   --link-hover-color: #ebffe5 !important;
+   --post-tooltip-background-color: var(--post-artist-commentary-container-background) !important;
+   --post-tooltip-header-background-color: var(--post-tooltip-background-color) !important;
+   --post-tooltip-border-color: var(--notice-info-border-color) !important;
+   --box-shadow-color: #647e5c !important;
+   --subnav-menu-border-b: #468335 !important;
+   --subnav-menu-border-t: #2ed400 !important;
+   --subnav-menu-grad-b: #16300e !important;
+   --subnav-menu-grad-t: #135b00 !important;
+   --textbox-grad-b: #040b02 !important;
+   --textbox-grad-t: #132b0d !important;
+   --chip-primary-background-color: #0f2809 !important;
+   --default-border-color: #2f6220 !important;
+   --autosuggestions-box-background: #000000 !important;
+   --responsive-menu-background-color: #16300e !important;
+}
+
+header#top #app-name-header #app-logo img {
+   content: url("https://raw.githubusercontent.com/ynnysh/DarkRetro2K/main/icons/aibooru.png")
+}
+
+a#app-name {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+a#app-name:after {
+    content: "AIBooru";
+    display: block;
+    line-height: initial;
+    text-indent: 0;
+}
+
+ #clickadu, #exoclick, #nav-ad-0, #candy-ai, #news-updates, div iframe {
+    display:none !important;
+ }

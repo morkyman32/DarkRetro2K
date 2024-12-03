@@ -1,0 +1,53 @@
+.danbooru-infobox table tr:first-child {
+    border-top: 1px solid var(--subnav-menu-border-t);
+}
+.danbooru-infobox table tr {
+    border-bottom: 1px solid var(--default-border-color);
+}
+.danbooru-infobox table td:first-child {
+    font-weight: bold;
+    border-right: 1px solid var(--default-border-color);
+}
+
+.danbooru-infobox table td {
+    padding: 5px;
+}
+
+.danbooru-infobox {
+    border: 1px solid var(--subnav-menu-border-t);
+    width: 300px;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+}
+
+.danbooru-infobox-header {
+    background: linear-gradient(180deg, var(--subnav-menu-grad-t), var(--subnav-menu-grad-b));
+    border-bottom: 1px solid var(--subnav-menu-border-t);
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.danbooru-infobox-image-cont {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.danbooru-infobox-image {
+    width: 100%;
+    height: 250px;
+}
+
+.danbooru-infobox-image img {
+    width:100%;min-height: 20px;height: 100%;object-fit: contain;padding: 15px;
+}
+
+.danbooru-infobox-data table {
+    width:100%;
+}

@@ -1,0 +1,20 @@
+@import url("styles_tagicons_list.css");
+
+li.flex .search-tag {
+    margin-left:19px;
+}
+
+li.flex {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+}
+
+.ui-autocomplete .ui-menu-item-wrapper a {
+    margin-left: 19px;
+}
+
+.ui-autocomplete.ui-widget div.ui-menu-item-wrapper {
+    background-size: contain;
+    background-repeat: no-repeat;
+}

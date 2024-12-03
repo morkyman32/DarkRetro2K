@@ -1,0 +1,15 @@
+img, .user-statistics, .user {
+    display: none;
+}
+
+div#page div#c-users, div#page div#c-users div {
+    display: block !important;
+}
+
+div#page div {
+    display: none;
+}
+
+header#top:after {
+    content: "Danbooru is currently disabled.";
+}

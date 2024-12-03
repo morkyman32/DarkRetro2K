@@ -1,0 +1,6 @@
+.post-preview[data-rating="e"]  .post-preview-image, .post-preview[data-rating="q"] .post-preview-image, .post-preview[data-rating="s"] .post-preview-image {
+    filter: saturate(0) brightness(0.75);
+}
+.post-preview[data-rating="e"]  .post-preview-image:hover, .post-preview[data-rating="q"] .post-preview-image:hover, .post-preview[data-rating="s"] .post-preview-image:hover {
+    filter: saturate(1) brightness(1);
+}
