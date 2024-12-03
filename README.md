@@ -7,6 +7,6 @@ On your Danbooru user settings, simply import the URLs that lead to the CSS file
 
 Example:
 
-`@import url('https://mdpakk.github.io/DarkRetro2K/styles.css');`
+`@import url('https://uname.github.io/DarkRetro2K/styles.css');`
 
-`@import url('https://mdpakk.github.io/DarkRetro2K/color-schemes/danbooru.css');`
+`@import url('https://uname.github.io/DarkRetro2K/color-schemes/danbooru.css');`
