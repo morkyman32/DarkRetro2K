@@ -468,3 +468,25 @@ a.user.user-banned {
     repeating-linear-gradient(0deg,transparent 10px,#ffffff54 30px,#ffffff4d 40px,transparent 60px), 
     linear-gradient(var(--form-button-active-background),var(--form-button-hover-background));
 }
+
+::-webkit-scrollbar:horizontal{
+       background: linear-gradient(0deg,#3a3a3a,rgb(22, 22, 22),#3a3a3a);
+       height:10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+       background: 
+    linear-gradient(0deg,rgba(255, 255, 255, 0.374) 45%, rgba(255, 255, 255, 0.198) 46%,transparent 47%, transparent),
+    linear-gradient(90deg,#00000099,transparent 5%, transparent 95%, #00000099),
+    repeating-linear-gradient(90deg,transparent 10px,#ffffff54 30px,#ffffff4d 40px,transparent 60px), 
+    linear-gradient(90deg,var(--form-button-active-background),var(--form-button-hover-background));
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background:
+    linear-gradient(0deg,#ffffff65,#ffffff65),
+    linear-gradient(0deg,rgba(255, 255, 255, 0.374) 45%, rgba(255, 255, 255, 0.198) 46%,transparent 47%, transparent),
+    linear-gradient(90deg,#00000099,transparent 5%, transparent 95%, #00000099),
+    repeating-linear-gradient(90deg,transparent 10px,#ffffff54 30px,#ffffff4d 40px,transparent 60px), 
+    linear-gradient(90deg,var(--form-button-active-background),var(--form-button-hover-background));
+}
